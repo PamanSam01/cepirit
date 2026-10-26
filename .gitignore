@@ -1,0 +1,55 @@
+# ==========================================
+# SENSITIVE: Browser Sessions, Cookies, Logins
+# ==========================================
+profiles/
+user_data/
+*.session
+
+# ==========================================
+# SENSITIVE: Account History & Tracking Data
+# ==========================================
+*.json
+*.txt
+
+# ==========================================
+# Logs & Screenshots (Contains Balances/IDs)
+# ==========================================
+*.log
+*.png
+*.jpg
+*.jpeg
+
+# ==========================================
+# Scratch & Local Debug Scripts
+# ==========================================
+test_*.py
+inspect_*.py
+dump_*.py
+scratch_*.py
+print_*.py
+
+# ==========================================
+# Environment Variables & Secrets
+# ==========================================
+.env
+.env.*
+*.pem
+*.key
+
+# ==========================================
+# Python & Virtual Environments
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+
+# ==========================================
+# IDE & System Files
+# ==========================================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
